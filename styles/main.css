@@ -10,6 +10,7 @@ main{
 	background-color: lightgray;
 }
 
+/* Resizing the grid of pictures via side margins */
 @media screen and (min-width: 605px){ #picture-grid{ margin: 0rem 2rem; } }
 @media screen and (min-width: 660px){ #picture-grid{ margin: 0rem 4rem;	} }
 @media screen and (min-width: 725px){ #picture-grid{ margin: 0rem 6rem;	} }
@@ -71,6 +72,7 @@ main{
 	margin: 0rem;
 }
 
+/* Formatting the letters to be 2 x 6 (or 3 x 4 for smaller resolutions) */
 @media screen and (min-width: 360px){ #letters{ margin: 0rem 2rem; } }
 @media screen and (min-width: 420px){ #letters{ margin: 0rem 4rem; } }
 @media screen and (min-width: 485px){ #letters{ margin: 0rem 6rem; } }
