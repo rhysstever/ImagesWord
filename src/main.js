@@ -45,6 +45,11 @@ function setupButtons(){
 		lettersDiv.children[l].id = "letter" + l;
 		lettersDiv.children[l].onclick = letterClicked;
 	}
+
+	let resetButton = document.querySelector("#resetButton");
+	resetButton.onclick = (e) => {
+		location.reload();
+	}
 }
 
 function pictureClicked(e){
