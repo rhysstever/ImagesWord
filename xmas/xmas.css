@@ -1,0 +1,165 @@
+body{
+	background-color: #17254F;
+}
+
+main{
+	text-align: center;
+}
+
+#picture-grid{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 1rem 0rem;
+	background-color: lightgray;
+}
+
+/* Resizing the grid of pictures via side margins */
+@media screen and (min-width: 605px){ #picture-grid{ margin: 1rem 2rem; } }
+@media screen and (min-width: 660px){ #picture-grid{ margin: 1rem 4rem;	} }
+@media screen and (min-width: 725px){ #picture-grid{ margin: 1rem 6rem;	} }
+@media screen and (min-width: 780px){ #picture-grid{ margin: 1rem 7rem; } }
+@media screen and (min-width: 815px){ #picture-grid{ margin: 1rem 9rem; } }
+@media screen and (min-width: 885px){ #picture-grid{ margin: 1rem 11rem; } }
+@media screen and (min-width: 945px){ #picture-grid{ margin: 1rem 12rem; } }
+@media screen and (min-width: 975px){ #picture-grid{ margin: 1rem 13rem; } }
+@media screen and (min-width: 1025px){ #picture-grid{ margin: 1rem 14.5rem; } }
+@media screen and (min-width: 1075px){ #picture-grid{ margin: 1rem 16rem; } }
+@media screen and (min-width: 1125px){ #picture-grid{ margin: 1rem 18rem; } }
+@media screen and (min-width: 1200px){ #picture-grid{ margin: 1rem 20rem; } }
+@media screen and (min-width: 1250px){ #picture-grid{ margin: 1rem 22rem; } }
+@media screen and (min-width: 1335px){ #picture-grid{ margin: 1rem 24rem; } }
+@media screen and (min-width: 1405px){ #picture-grid{ margin: 1rem 26rem; } }
+@media screen and (min-width: 1450px){ #picture-grid{ margin: 1rem 28rem; } }
+@media screen and (min-width: 1510px){ #picture-grid{ margin: 1rem 30rem; } }
+@media screen and (min-width: 1565px){ #picture-grid{ margin: 1rem 32rem; } }
+@media screen and (min-width: 1645px){ #picture-grid{ margin: 1rem 34rem; } }
+@media screen and (min-width: 1715px){ #picture-grid{ margin: 1rem 36rem; } }
+@media screen and (min-width: 1780px){ #picture-grid{ margin: 1rem 38rem; } }
+@media screen and (min-width: 1870px){ #picture-grid{ margin: 1rem 40rem; } }
+@media screen and (min-width: 1915px){ #picture-grid{ margin: 1rem 42rem; } }
+@media screen and (min-width: 1995px){ #picture-grid{ margin: 1rem 44rem; } }
+@media screen and (min-width: 2060px){ #picture-grid{ margin: 1rem 46rem; } }
+@media screen and (min-width: 2135px){ #picture-grid{ margin: 1rem 49rem; } }
+@media screen and (min-width: 2220px){ #picture-grid{ margin: 1rem 51rem; } }
+@media screen and (min-width: 2285px){ #picture-grid{ margin: 1rem 54rem; } }
+@media screen and (min-width: 2380px){ #picture-grid{ margin: 1rem 57rem; } }
+@media screen and (min-width: 2475px){ #picture-grid{ margin: 1rem 59.5rem; } }
+@media screen and (min-width: 2560px){ #picture-grid{ margin: 1rem 62rem; } }
+@media screen and (min-width: 2635px){ #picture-grid{ margin: 1rem 65rem; } }
+
+.picture{
+	margin: 1rem auto;
+	padding: 0;
+	max-width: 16rem;
+	max-height: auto;
+}
+
+#answer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 1rem;
+}
+
+.answerLetter{
+	max-width: 4rem;
+	max-height: 4rem;
+	font-size: 24px;
+	margin: 0.25rem;
+}
+
+#letters{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0rem;
+}
+
+/* Formatting the letters to be 2 x 6 (or 3 x 4 for smaller resolutions) */
+@media screen and (min-width: 360px){ #letters{ margin: 0rem 2rem; } }
+@media screen and (min-width: 420px){ #letters{ margin: 0rem 4rem; } }
+@media screen and (min-width: 485px){ #letters{ margin: 0rem 6rem; } }
+@media screen and (min-width: 510px){ #letters{ margin: 0rem 2rem; } }
+@media screen and (min-width: 565px){ #letters{ margin: 0rem 4rem; } }
+@media screen and (min-width: 625px){ #letters{ margin: 0rem 6rem; } }
+@media screen and (min-width: 695px){ #letters{ margin: 0rem 8rem; } }
+@media screen and (min-width: 750px){ #letters{ margin: 0rem 9rem; } }
+@media screen and (min-width: 790px){ #letters{ margin: 0rem 11rem; } }
+@media screen and (min-width: 855px){ #letters{ margin: 0rem 13rem; } }
+@media screen and (min-width: 920px){ #letters{ margin: 0rem 15rem;	} }
+@media screen and (min-width: 985px){ #letters{ margin: 0rem 17rem;	} }
+@media screen and (min-width: 1045px){ #letters{ margin: 0rem 19rem; } }
+@media screen and (min-width: 1110px){ #letters{ margin: 0rem 21rem; } }
+@media screen and (min-width: 1175px){ #letters{ margin: 0rem 23rem; } }
+@media screen and (min-width: 1240px){ #letters{ margin: 0rem 25rem; } }
+@media screen and (min-width: 1300px){ #letters{ margin: 0rem 27rem; } }
+@media screen and (min-width: 1365px){ #letters{ margin: 0rem 29rem; } }
+@media screen and (min-width: 1430px){ #letters{ margin: 0rem 31rem; } }
+@media screen and (min-width: 1495px){ #letters{ margin: 0rem 33rem; } }
+@media screen and (min-width: 1550px){ #letters{ margin: 0rem 35rem; } }
+@media screen and (min-width: 1620px){ #letters{ margin: 0rem 37rem; } }
+@media screen and (min-width: 1685px){ #letters{ margin: 0rem 39rem; } }
+@media screen and (min-width: 1750px){ #letters{ margin: 0rem 41rem; } }
+@media screen and (min-width: 1815px){ #letters{ margin: 0rem 43rem; } }
+@media screen and (min-width: 1880px){ #letters{ margin: 0rem 45rem; } }
+@media screen and (min-width: 1935px){ #letters{ margin: 0rem 47rem; } }
+@media screen and (min-width: 2005px){ #letters{ margin: 0rem 49rem; } }
+@media screen and (min-width: 2070px){ #letters{ margin: 0rem 51rem; } }
+@media screen and (min-width: 2135px){ #letters{ margin: 0rem 53rem; } }
+@media screen and (min-width: 2200px){ #letters{ margin: 0rem 55rem; } }
+@media screen and (min-width: 2260px){ #letters{ margin: 0rem 57rem; } }
+@media screen and (min-width: 2325px){ #letters{ margin: 0rem 59rem; } }
+@media screen and (min-width: 2390px){ #letters{ margin: 0rem 61rem; } }
+@media screen and (min-width: 2455px){ #letters{ margin: 0rem 63rem; } }
+@media screen and (min-width: 2520px){ #letters{ margin: 0rem 65rem; } }
+@media screen and (min-width: 2580px){ #letters{ margin: 0rem 67rem; } }
+@media screen and (min-width: 2645px){ #letters{ margin: 0rem 69rem; } }
+
+.letter{
+	min-width: 4rem;
+	min-height: 4rem;
+	font-size: 24px;
+	margin: 0.25rem;
+}
+
+#zoomedPicDiv{
+	display: flex;
+	justify-content: center;
+}
+
+#zoomedPicDiv img{
+	width: 40rem;
+	height: auto;
+}
+
+@media screen and (max-width: 1024px){ #zoomedPicDiv img{
+		width: 30rem;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#zoomedPicDiv img{
+		width: 25rem;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 425px){
+	#zoomedPicDiv img{
+		min-width: 20rem;
+		min-height: auto;
+	}
+}
+
+@media screen and (max-width: 375px){
+	#zoomedPicDiv img{
+		min-width: 15rem;
+		min-height: auto;
+	}
+}
+
+.bold{
+	font-weight: bold;
+}

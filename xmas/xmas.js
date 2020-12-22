@@ -1,3 +1,6 @@
+// *** This version is for a xmas gift for a friend of mine *** 
+// It is intentionally made to look like the game: 4 Pics 1 Word
+
 const answer = "BASS";
 const answerLength = answer.length;
 const letters = ['F', 'S', 'R', 'G', 'C', 'B', 
@@ -33,7 +36,7 @@ function setupButtons(){
 	for(let l = 0; l < answerLength; l++){
 		let letter = document.createElement("button");
 		letter.innerHTML = "";
-		letter.className = "letter btn btn-secondary";
+		letter.className = "letter btn btn-light bold";
 		letter.onclick = answerBoxClicked;
 		answerDiv.appendChild(letter);
 	}
@@ -42,13 +45,9 @@ function setupButtons(){
 	let lettersDiv = document.querySelector("#letters");
 	for(let l = 0; l < lettersDiv.children.length; l++){
 		lettersDiv.children[l].innerHTML = letters[l];
+		lettersDiv.children[l].classList.add('bold');
 		lettersDiv.children[l].id = "letter" + l;
 		lettersDiv.children[l].onclick = letterClicked;
-	}
-
-	let resetButton = document.querySelector("#resetButton");
-	resetButton.onclick = (e) => {
-		location.reload();
 	}
 }
 
@@ -100,7 +99,7 @@ function checkAnswer(){
 	for(let c = 0; c < answerDiv.children.length; c++){
 		if (answerDiv.children[c].innerHTML == ""){
 			for(let c = 0; c < answerDiv.children.length; c++)
-				answerDiv.children[c].className = "letter btn btn-secondary";
+				answerDiv.children[c].className = "letter btn btn-light";
 			return false;
 		}
 	}
