@@ -16,7 +16,7 @@ main{
 	grid-gap: 1rem;
 	place-items: center;
 	justify-content: center;
-	margin: 1rem auto 1rem auto;
+	margin: 1rem auto;
 	background-color: #17254F;
 }
 
@@ -31,9 +31,16 @@ main{
 
 .picture{
 	padding: 0;
-	width: 16rem;
-	height: auto;
+	width: 8rem;
+	height: 8rem;
 	align-self: stretch;
+}
+
+@media screen and (min-width: 605px){ 
+	.picture{ 
+		width: 16rem;
+		height: 16rem;
+	}
 }
 
 #answer{
@@ -92,7 +99,7 @@ main{
 	place-self: center;
 	background-image: linear-gradient(#a2d138, #72a20c);
 	width: 4.5rem;
-	height: 9rem;
+	height: 8.5rem;
 	padding: 0;
 	border-radius: 5px;
 }
